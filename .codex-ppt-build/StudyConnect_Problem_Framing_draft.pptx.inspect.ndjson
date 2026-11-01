@@ -1,0 +1,11 @@
+{"kind":"deck","id":"pr/8zzopd","name":"Deck"}
+{"kind":"layout","id":"ly/yx4je94b","editable":false,"name":"Master","type":"master"}
+{"kind":"layout","id":"ly/p4by94n6","editable":false,"name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title"},{"name":"subtitle","type":"subtitle"}]}
+{"kind":"layout","id":"ly/pkbix8rm","editable":false,"name":"Section Header","type":"sectionHeader","placeholders":[{"name":"title","type":"title"}]}
+{"kind":"layout","id":"ly/c3uhoral","editable":false,"name":"Title and Body","type":"tx","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/kf2dkfe1","editable":false,"name":"Title and Two Column","type":"twoColTx","placeholders":[{"name":"title","type":"title"},{"name":"Left column","type":"body"},{"name":"Right column","type":"body"}]}
+{"kind":"layout","id":"ly/ob6dkvyx","editable":false,"name":"Title and One Column","type":"tx","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"}]}
+{"kind":"layout","id":"ly/pwjq58v2","editable":false,"name":"Blank","type":"blank"}
+{"kind":"slide","id":"sl/a4in3j","slideIndex":0,"layout":{"id":"ly/pwjq58v2","name":"Blank"},"title":"Slide 1","textShapes":0,"backgroundColor":"rgba(245,244,253,1)"}
+{"kind":"image","id":"im/ix0z2pwf","slideIndex":0,"position":{"left":64,"top":0,"width":1152,"height":720},"fit":"contain","name":"","alt":"StudyConnect problem framing infographic with a student problem cycle and six framing categories"}
+{"kind":"notes","id":"nt/a4in3j","slideIndex":0,"text":"StudyConnect problem framing. The graphic presents the student problem cycle and the context, problem, alternatives, customers, emotional impact, and shortcomings. The slide is built from the project infographic supplied for this request."}

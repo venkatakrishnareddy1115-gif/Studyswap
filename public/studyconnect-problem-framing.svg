@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">StudyConnect — Problem Framing</title>
+  <desc id="desc">A student problem cycle and six-part problem framing for StudyConnect, a free-to-start learning platform for college students.</desc>
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8f7ff"/><stop offset="1" stop-color="#f1f4fb"/></linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7662ef"/><stop offset="1" stop-color="#5540cf"/></linearGradient>
+    <filter id="shadow" x="-15%" y="-20%" width="130%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#312575" flood-opacity=".09"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6854df"/></marker>
+    <style>
+      .font{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;fill:#211e4d}
+      .head{font-size:44px;font-weight:760;letter-spacing:-1.5px}
+      .section{font-size:17px;font-weight:750;letter-spacing:3.2px;fill:#6653dc}
+      .cardhead{font-size:20px;font-weight:730;fill:#5e4bd4}
+      .body{font-size:16px;font-weight:450;fill:#302d58}
+      .cycletext{font-size:15px;font-weight:520;fill:#302d58}
+      .small{font-size:12px;font-weight:700;letter-spacing:1.4px;fill:#8a86a9}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#page)"/>
+  <circle cx="1510" cy="67" r="170" fill="#e9e6ff" opacity=".42"/>
+  <circle cx="120" cy="927" r="145" fill="#e8f2ee" opacity=".44"/>
+
+  <g class="font">
+    <rect x="64" y="44" width="42" height="42" rx="13" fill="url(#brand)"/>
+    <path d="M75 60h20l-10-7-10 7Zm2 3v10m6-10v10m6-10v10m-16 2h21" fill="none" stroke="#fff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="123" y="78" font-size="17" font-weight="760" letter-spacing="-.4">STUDYCONNECT</text>
+    <text x="1535" y="74" text-anchor="end" class="small">STUDENT LEARNING PLATFORM</text>
+    <text x="64" y="151" class="head">StudyConnect <tspan fill="#aaa6c7" font-weight="450">|</tspan> <tspan fill="#5e4bd4">Problem Framing</tspan></text>
+    <text x="64" y="191" font-size="15" fill="#777493">A clearer path from struggling alone to learning together.</text>
+  </g>
+
+  <text x="64" y="246" class="font section">THE STUDENT PROBLEM CYCLE</text>
+  <text x="790" y="246" class="font section">PROBLEM FRAMING</text>
+
+  <!-- Cycle arrows sit behind the cards. -->
+  <g fill="none" stroke="#6854df" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M424 323Q478 350 510 390"/><path d="M594 464Q602 500 594 536"/>
+    <path d="M511 612Q474 656 424 677"/><path d="M296 678Q241 653 209 612"/>
+    <path d="M126 536Q118 500 126 464"/><path d="M209 389Q244 348 296 323"/>
+  </g>
+
+  <!-- Six stages of the cycle. -->
+  <g class="font" filter="url(#shadow)">
+    <rect x="268" y="270" width="244" height="112" rx="17" fill="#fff" stroke="#c8bfff" stroke-width="2"/>
+    <rect x="475" y="390" width="244" height="112" rx="17" fill="#fff" stroke="#c8bfff" stroke-width="2"/>
+    <rect x="475" y="534" width="244" height="112" rx="17" fill="#fff" stroke="#c8bfff" stroke-width="2"/>
+    <rect x="268" y="654" width="244" height="112" rx="17" fill="#fff" stroke="#c8bfff" stroke-width="2"/>
+    <rect x="61" y="534" width="244" height="112" rx="17" fill="#fff" stroke="#c8bfff" stroke-width="2"/>
+    <rect x="61" y="390" width="244" height="112" rx="17" fill="#fff" stroke="#c8bfff" stroke-width="2"/>
+  </g>
+  <g class="font cycletext" text-anchor="middle">
+    <text x="390" y="315"><tspan x="390">Students struggle to keep up</tspan><tspan x="390" dy="23">or learn a new skill.</tspan></text>
+    <text x="597" y="433"><tspan x="597">Deadlines, notes, and help</tspan><tspan x="597" dy="23">live in different places.</tspan></text>
+    <text x="597" y="577"><tspan x="597">They fall behind before</tspan><tspan x="597" dy="23">reliable help appears.</tspan></text>
+    <text x="390" y="697"><tspan x="390">Stress grows; confidence</tspan><tspan x="390" dy="23">and progress begin to slip.</tspan></text>
+    <text x="183" y="577"><tspan x="183">They ask classmates or</tspan><tspan x="183" dy="23">consider costly coaching.</tspan></text>
+    <text x="183" y="433"><tspan x="183">Peer support is informal,</tspan><tspan x="183" dy="23">inconsistent, and hard to find.</tspan></text>
+  </g>
+  <g class="font" text-anchor="middle">
+    <circle cx="390" cy="500" r="57" fill="#eeeaff"/>
+    <circle cx="390" cy="500" r="43" fill="#fff" stroke="#dcd5ff" stroke-width="1.5"/>
+    <text x="390" y="493" font-size="12" font-weight="750" letter-spacing="1.1" fill="#8175c4">THE GAP</text>
+    <text x="390" y="515" font-size="14" font-weight="760" fill="#5145a5">Support is scattered</text>
+    <text x="390" y="802" font-size="17" font-style="italic" font-weight="650" fill="#6653dc">Learn together. Grow together.</text>
+  </g>
+
+  <!-- Six framing cards. -->
+  <g class="font" filter="url(#shadow)">
+    <rect x="790" y="270" width="355" height="192" rx="17" fill="#fff" stroke="#e2def8" stroke-width="1.5"/>
+    <rect x="1165" y="270" width="371" height="192" rx="17" fill="#fff" stroke="#e2def8" stroke-width="1.5"/>
+    <rect x="790" y="480" width="355" height="192" rx="17" fill="#fff" stroke="#e2def8" stroke-width="1.5"/>
+    <rect x="1165" y="480" width="371" height="192" rx="17" fill="url(#brand)"/>
+    <rect x="790" y="690" width="355" height="192" rx="17" fill="#fff" stroke="#e2def8" stroke-width="1.5"/>
+    <rect x="1165" y="690" width="371" height="192" rx="17" fill="#fff" stroke="#e2def8" stroke-width="1.5"/>
+  </g>
+  <g class="font">
+    <!-- Card 1 -->
+    <circle cx="822" cy="305" r="19" fill="#6350dc"/><text x="822" y="311" text-anchor="middle" font-size="15" font-weight="750" fill="#fff">1</text>
+    <text x="853" y="312" class="cardhead">Context</text>
+    <text x="814" y="354" class="body"><tspan x="814">College students balance many</tspan><tspan x="814" dy="23">courses and need a reliable place</tspan><tspan x="814" dy="23">to plan, practise, and ask for help.</tspan></text>
+    <!-- Card 2 -->
+    <circle cx="1197" cy="305" r="19" fill="#6350dc"/><text x="1197" y="311" text-anchor="middle" font-size="15" font-weight="750" fill="#fff">2</text>
+    <text x="1228" y="312" class="cardhead">Problem</text>
+    <text x="1189" y="354" class="body"><tspan x="1189">Study tools are fragmented.</tspan><tspan x="1189" dy="23">Useful notes and dependable peer</tspan><tspan x="1189" dy="23">support can be hard to find.</tspan></text>
+    <!-- Card 3 -->
+    <circle cx="822" cy="515" r="19" fill="#6350dc"/><text x="822" y="521" text-anchor="middle" font-size="15" font-weight="750" fill="#fff">3</text>
+    <text x="853" y="522" class="cardhead">Alternatives</text>
+    <circle cx="817" cy="566" r="3" fill="#6653dc"/><text x="832" y="572" class="body">Ask classmates informally</text>
+    <circle cx="817" cy="601" r="3" fill="#6653dc"/><text x="832" y="607" class="body">Use separate course tools</text>
+    <circle cx="817" cy="636" r="3" fill="#6653dc"/><text x="832" y="642" class="body">Pay for private coaching</text>
+    <!-- Card 4 -->
+    <circle cx="1197" cy="515" r="19" fill="#fff"/><text x="1197" y="521" text-anchor="middle" font-size="15" font-weight="750" fill="#5e4bd4">4</text>
+    <text x="1228" y="522" font-size="20" font-weight="730" fill="#fff">Customers</text>
+    <text x="1189" y="566" font-size="16" fill="#fff"><tspan x="1189">Students from any college,</tspan><tspan x="1189" dy="24">plus beginners learning new skills</tspan><tspan x="1189" dy="24">who want free, friendly support.</tspan></text>
+    <rect x="1189" y="632" width="178" height="23" rx="11" fill="#ffffff" opacity=".18"/><text x="1278" y="648" text-anchor="middle" font-size="11" font-weight="700" letter-spacing=".8" fill="#fff">FREE TO START</text>
+    <!-- Card 5 -->
+    <circle cx="822" cy="725" r="19" fill="#6350dc"/><text x="822" y="731" text-anchor="middle" font-size="15" font-weight="750" fill="#fff">5</text>
+    <text x="853" y="732" class="cardhead">Emotional Impact</text>
+    <text x="814" y="775" class="body"><tspan x="814">Falling behind can feel isolating</tspan><tspan x="814" dy="23">and frustrating, and can make it</tspan><tspan x="814" dy="23">harder to feel confident.</tspan></text>
+    <!-- Card 6 -->
+    <circle cx="1197" cy="725" r="19" fill="#6350dc"/><text x="1197" y="731" text-anchor="middle" font-size="15" font-weight="750" fill="#fff">6</text>
+    <text x="1228" y="726" class="cardhead"><tspan x="1228">Alternative</tspan><tspan x="1228" dy="22">Shortcomings</tspan></text>
+    <circle cx="1192" cy="784" r="3" fill="#6653dc"/><text x="1207" y="790" class="body"><tspan x="1207">Help may be inconsistent or</tspan><tspan x="1207" dy="21">difficult to find.</tspan></text>
+    <circle cx="1192" cy="839" r="3" fill="#6653dc"/><text x="1207" y="845" class="body"><tspan x="1207">Coaching can be expensive</tspan><tspan x="1207" dy="21">and less relatable.</tspan></text>
+  </g>
+  <path d="M64 922H1536" stroke="#dedcf0" stroke-width="1"/>
+  <g class="font"><text x="64" y="952" font-size="12" font-weight="650" fill="#8b88a4">PLANNER · PEER LEARNING · SHARED NOTES · STUDY GROUPS · QUIZZES</text><text x="1536" y="952" text-anchor="end" font-size="12" fill="#9692ae">STUDYCONNECT</text></g>
+</svg>
